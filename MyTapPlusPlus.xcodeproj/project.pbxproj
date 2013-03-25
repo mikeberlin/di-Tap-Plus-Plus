@@ -1,0 +1,287 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		57FF87A617011033006715E7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FF87A517011033006715E7 /* UIKit.framework */; };
+		57FF87A817011033006715E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FF87A717011033006715E7 /* Foundation.framework */; };
+		57FF87AA17011033006715E7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FF87A917011033006715E7 /* CoreGraphics.framework */; };
+		57FF87B017011033006715E7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57FF87AE17011033006715E7 /* InfoPlist.strings */; };
+		57FF87B217011033006715E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FF87B117011033006715E7 /* main.m */; };
+		57FF87B617011033006715E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FF87B517011033006715E7 /* AppDelegate.m */; };
+		57FF87B817011033006715E7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FF87B717011033006715E7 /* Default.png */; };
+		57FF87BA17011033006715E7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FF87B917011033006715E7 /* Default@2x.png */; };
+		57FF87BC17011033006715E7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57FF87BB17011033006715E7 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57FF87A217011033006715E7 /* MyTapPlusPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTapPlusPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57FF87A517011033006715E7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		57FF87A717011033006715E7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		57FF87A917011033006715E7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		57FF87AD17011033006715E7 /* MyTapPlusPlus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyTapPlusPlus-Info.plist"; sourceTree = "<group>"; };
+		57FF87AF17011033006715E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		57FF87B117011033006715E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		57FF87B317011033006715E7 /* MyTapPlusPlus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyTapPlusPlus-Prefix.pch"; sourceTree = "<group>"; };
+		57FF87B417011033006715E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		57FF87B517011033006715E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		57FF87B717011033006715E7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		57FF87B917011033006715E7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		57FF87BB17011033006715E7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		57FF879F17011033006715E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FF87A617011033006715E7 /* UIKit.framework in Frameworks */,
+				57FF87A817011033006715E7 /* Foundation.framework in Frameworks */,
+				57FF87AA17011033006715E7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		57FF879917011033006715E7 = {
+			isa = PBXGroup;
+			children = (
+				57FF87AB17011033006715E7 /* MyTapPlusPlus */,
+				57FF87A417011033006715E7 /* Frameworks */,
+				57FF87A317011033006715E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		57FF87A317011033006715E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				57FF87A217011033006715E7 /* MyTapPlusPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		57FF87A417011033006715E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				57FF87A517011033006715E7 /* UIKit.framework */,
+				57FF87A717011033006715E7 /* Foundation.framework */,
+				57FF87A917011033006715E7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57FF87AB17011033006715E7 /* MyTapPlusPlus */ = {
+			isa = PBXGroup;
+			children = (
+				57FF87B417011033006715E7 /* AppDelegate.h */,
+				57FF87B517011033006715E7 /* AppDelegate.m */,
+				57FF87AC17011033006715E7 /* Supporting Files */,
+			);
+			path = MyTapPlusPlus;
+			sourceTree = "<group>";
+		};
+		57FF87AC17011033006715E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				57FF87AD17011033006715E7 /* MyTapPlusPlus-Info.plist */,
+				57FF87AE17011033006715E7 /* InfoPlist.strings */,
+				57FF87B117011033006715E7 /* main.m */,
+				57FF87B317011033006715E7 /* MyTapPlusPlus-Prefix.pch */,
+				57FF87B717011033006715E7 /* Default.png */,
+				57FF87B917011033006715E7 /* Default@2x.png */,
+				57FF87BB17011033006715E7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		57FF87A117011033006715E7 /* MyTapPlusPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57FF87BF17011033006715E7 /* Build configuration list for PBXNativeTarget "MyTapPlusPlus" */;
+			buildPhases = (
+				57FF879E17011033006715E7 /* Sources */,
+				57FF879F17011033006715E7 /* Frameworks */,
+				57FF87A017011033006715E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyTapPlusPlus;
+			productName = MyTapPlusPlus;
+			productReference = 57FF87A217011033006715E7 /* MyTapPlusPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		57FF879A17011033006715E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Mike Berlin";
+			};
+			buildConfigurationList = 57FF879D17011033006715E7 /* Build configuration list for PBXProject "MyTapPlusPlus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 57FF879917011033006715E7;
+			productRefGroup = 57FF87A317011033006715E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				57FF87A117011033006715E7 /* MyTapPlusPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		57FF87A017011033006715E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FF87B017011033006715E7 /* InfoPlist.strings in Resources */,
+				57FF87B817011033006715E7 /* Default.png in Resources */,
+				57FF87BA17011033006715E7 /* Default@2x.png in Resources */,
+				57FF87BC17011033006715E7 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		57FF879E17011033006715E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57FF87B217011033006715E7 /* main.m in Sources */,
+				57FF87B617011033006715E7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		57FF87AE17011033006715E7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				57FF87AF17011033006715E7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		57FF87BD17011033006715E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		57FF87BE17011033006715E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		57FF87C017011033006715E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTapPlusPlus/MyTapPlusPlus-Prefix.pch";
+				INFOPLIST_FILE = "MyTapPlusPlus/MyTapPlusPlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		57FF87C117011033006715E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MyTapPlusPlus/MyTapPlusPlus-Prefix.pch";
+				INFOPLIST_FILE = "MyTapPlusPlus/MyTapPlusPlus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		57FF879D17011033006715E7 /* Build configuration list for PBXProject "MyTapPlusPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FF87BD17011033006715E7 /* Debug */,
+				57FF87BE17011033006715E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57FF87BF17011033006715E7 /* Build configuration list for PBXNativeTarget "MyTapPlusPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				57FF87C017011033006715E7 /* Debug */,
+				57FF87C117011033006715E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 57FF879A17011033006715E7 /* Project object */;
+}
